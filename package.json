@@ -1,0 +1,26 @@
+{
+    "name": "mydiary",
+    "version": "1.0.0",
+    "description": "online journal",
+    "main": "server.js",
+    "scripts": {
+        "start": "NODE_ENV= production node server",
+        "dev": "nodemon server"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kamula/myDiary.git"
+    },
+    "author": "isaac",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/kamula/myDiary/issues"
+    },
+    "homepage": "https://github.com/kamula/myDiary#readme",
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    }
+}
