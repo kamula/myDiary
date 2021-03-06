@@ -4,3 +4,5 @@ const { getDiaries, getDiary, createDiary, updateDiary, deleteDiary } = require(
 
 router.route('/').get(getDiaries).post(createDiary)
 router.route('/:id').get(getDiary).put(updateDiary).delete(deleteDiary)
+
+module.exports = router
